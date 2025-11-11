@@ -217,7 +217,7 @@
 &kp CAPSLOCK    &kp GRAVE     &trans        &trans            &trans                                          &trans         &trans          &moA  &moB  &moC
 &kp TAB         &trans        &trans        &kp LANGUAGE_2    &trans       &kp LEFT_COMMAND      &kp JP_EISU  &trans         &kp LANGUAGE_1  &moD  &moE  &kp ENTER
 &kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &trans       &kp JP_KANA    &moF            &moG  &moH  &kp ENTER
-&mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp ENTER                              &kp DEL
+&mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp BACKSPACE                          &kp TAB
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -293,10 +293,10 @@
 
         MOUSE {
             bindings = <
-&trans            &trans        &trans            &trans             &trans                                &trans  &kp LEFT  &trans    &kp RIGHT  &trans
-&kp LEFT_BRACKET  &trans        &trans            &kp RIGHT_BRACKET  &trans    &kp LEFT_COMMAND    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans
-&kp LEFT_CONTROL  &kp MINUS     &trans            &trans             &kp PLUS  &trans              &trans  &trans  &trans    &trans    &trans     &trans
-&kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_COMMAND  &trans             &trans    &trans                      &trans  &trans                                 &trans
+&trans            &trans        &trans            &trans             &trans                                &trans         &kp LEFT       &trans    &kp RIGHT  &trans
+&kp LEFT_BRACKET  &trans        &trans            &kp RIGHT_BRACKET  &trans    &kp LEFT_COMMAND    &trans  &trans         &mkp MB1       &mkp MB3  &mkp MB2   &trans
+&kp LEFT_CONTROL  &kp MINUS     &trans            &trans             &kp PLUS  &trans              &trans  &trans         &trans         &trans    &trans     &trans
+&kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_COMMAND  &trans             &trans    &trans                      &kp BACKSPACE  &kp BACKSPACE                               &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
