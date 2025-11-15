@@ -214,7 +214,7 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp NUMBER_1    &kp GRAVE     &kp NUMBER_3  &kp NUMBER_4      &kp N5                                          &kp NUMBER_6   &kp N7          &kp N8                &kp N9                 &kp PERCENT
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5                                          &kp NUMBER_6   &kp N7          &kp N8                &kp N9                 &kp PERCENT
 &kp AMPERSAND   &trans        &trans        &kp LANGUAGE_2    &trans       &kp LEFT_COMMAND      &kp JP_EISU  &kp QUESTION   &kp LANGUAGE_1  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
 &kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &kp EXCLAMATION       &trans       &kp JP_KANA    &moF            &moG                  &moH                   &kp ENTER
 &mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp BACKSPACE                                                             &kp TAB
