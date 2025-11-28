@@ -1,8 +1,8 @@
 file_format: "1"
-id: goyakey58
-name: goyakey58
+id: zonkey
+name: zonkey
 type: shield
-url: https://github.com/goyakey58/zmk-config-zonkey
+url: https://github.com/kureyakey/zmk-config-zonkey
 requires: [seeeduino_xiao_ble]
 features:
   - keys
