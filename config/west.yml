@@ -1,3 +1,6 @@
+- name: Create west.yml
+  run: |
+    cat > config/west.yml << 'EOF'
 manifest:
   remotes:
     - name: zmkfirmware
@@ -15,3 +18,4 @@ manifest:
       path: modules/zmk-pmw3610-driver
   self:
     path: config
+EOF
