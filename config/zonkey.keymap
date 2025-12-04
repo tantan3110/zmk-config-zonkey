@@ -215,7 +215,7 @@
 
             bindings = <
 &kp CAPSLOCK      &kp GRAVE     &trans            &trans      &trans                                           &trans         &trans     &moA  &moB  &kt PERCENT
-&kp AMPERSAND     &trans        &trans            &trans      &trans      &kp LS(LG(NUMBER_3))    &kp JP_EISU  &kp QUESTION   &trans     &moD  &moE  &kp ENTER
+&kp AMPERSAND     &kp HASH      &kp DOLLAR        &trans      &trans      &kp LS(LG(NUMBER_3))    &kp JP_EISU  &kp QUESTION   &trans     &moD  &moE  &kp ENTER
 &kp LEFT_CONTROL  &trans        &trans            &trans      &trans      &kp EXCLAMATION         &trans       &kp JP_KANA    &moF       &moG  &moH  &kp ENTER
 &kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LEFT  &lt 2 DOWN  &lt 1 RIGHT                          &kp BACKSPACE  &kp ENTER                           &kp DEL
             >;
