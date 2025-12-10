@@ -214,10 +214,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp CAPSLOCK      &kp GRAVE     &trans            &trans      &trans                                           &trans         &trans     &moA  &moB  &kt PERCENT
-&kp AMPERSAND     &kp HASH      &kp DOLLAR        &trans      &trans      &kp LS(LG(NUMBER_3))    &kp JP_EISU  &kp QUESTION   &trans     &moD  &moE  &kp ENTER
-&kp LEFT_CONTROL  &trans        &trans            &trans      &trans      &kp EXCLAMATION         &trans       &kp JP_KANA    &moF       &moG  &moH  &kp ENTER
-&kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LEFT  &lt 2 DOWN  &lt 1 RIGHT                          &kp BACKSPACE  &kp ENTER                           &kp DEL
+&kp CAPSLOCK      &kp GRAVE     &trans            &trans      &trans                                            &trans         &trans     &moA  &moB  &kt PERCENT
+&kp AMPERSAND     &kp HASH      &kp DOLLAR        &trans      &trans      &kp LS(LG(NUMBER_3))    &kp JP_EISU   &kp QUESTION   &trans     &moD  &moE  &kp ENTER
+&kp LEFT_CONTROL  &trans        &trans            &trans      &trans      &kp EXCLAMATION         &kp UP_ARROW  &kp JP_KANA    &moF       &moG  &moH  &kp ENTER
+&kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LEFT  &lt 2 DOWN  &lt 1 RIGHT                           &kp BACKSPACE  &kp ENTER                           &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -231,10 +231,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp N1            &mo2          &kp N3            &kp N4            &kp N5                                         &kp NUMBER_6  &kp N7     &kp N8          &kp N9          &kp N0
-&trans            &trans        &trans            &trans            &trans            &trans         &kp SPACE     &trans        &trans     &trans          &kp UP_ARROW    &kp UP_ARROW
-&kp LEFT_CONTROL  &trans        &trans            &trans            &trans            &trans         &kp UP_ARROW  &trans        &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LEFT_ARROW  &lt 2 DOWN_ARROW  &lt 1 RIGHT                  &kp SPACE     &kp ENTER                                                   &kp DOWN_ARROW
+&kp N1            &mo2          &kp N3            &kp N4            &kp N5                                      &kp NUMBER_6  &kp N7     &kp N8          &kp N9          &kp N0
+&trans            &trans        &trans            &trans            &trans            &trans         &kp SPACE  &trans        &trans     &trans          &kp UP_ARROW    &kp UP_ARROW
+&kp LEFT_CONTROL  &trans        &trans            &trans            &trans            &trans         &kp TAB    &trans        &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LEFT_ARROW  &lt 2 DOWN_ARROW  &lt 1 RIGHT               &kp SPACE     &kp ENTER                                                   &kp DOWN_ARROW
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -295,8 +295,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                          &kp Y      &kp U          &kp I       &kp O       &kp P
 &trans  &trans  &trans  &trans  &trans  &trans    &kp SPACE     &kp H      &mkp MB1       &mkp MB3    &mkp MB2    &mo 6
-&trans  &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW  &kp N      &kp M          &kp PERIOD  &kp PERIOD  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans                  &kp SPACE  &kp BACKSPACE                                     &kp END
+&trans  &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW  &kp N      &kp M          &kp PERIOD  &kp PERIOD  &mo 5
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp SPACE  &kp BACKSPACE                                 &kp END
             >;
 
             sensor-bindings = <&scroll_up_down>;
